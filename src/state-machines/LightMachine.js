@@ -1,7 +1,7 @@
 import { createMachine, interpret } from 'xstate';
 
 const lightMachine = createMachine({
-  // Your state machine blueprint here
+  // State machine blueprint 
   id: 'trafficLight',
   initial: 'red',
   states: {
